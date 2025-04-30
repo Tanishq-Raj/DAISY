@@ -32,6 +32,7 @@ DAISY is an intelligent system designed to enhance road safety by detecting and 
    - Progressive alert system based on severity
    - Immediate response to critical situations
 
+<<<<<<< HEAD
 ## Features
 
 - Real-time drowsiness detection using your webcam
@@ -97,6 +98,28 @@ The webcam feed is processed locally on your machine and is not sent to any exte
 
 - Original DAISY game by Tanishq Raj
 - Drowsiness detection system implemented using OpenCV and Python 
+=======
+### How It Works
+
+1. **Initialization**
+   - The system starts by initializing the camera and setting up the detection parameters
+   - Creates a real-time video feed window for monitoring
+
+2. **Face and Eye Detection**
+   - Uses OpenCV's Haar cascades to detect faces in real-time
+   - Once a face is detected, it focuses on eye regions
+   - Continuously tracks eye movements and closure patterns
+
+3. **Drowsiness Detection**
+   - Monitors eye closure duration and frequency
+   - Uses a threshold system to determine drowsiness levels
+   - Triggers alerts based on the severity of drowsiness
+
+4. **Alert System**
+   - Visual alerts in the monitoring interface
+   - Audio alerts (can be configured)
+   - Wheel simulation to demonstrate potential vehicle control issues
+>>>>>>> ff824be (Code update)
 
 ### Technical Implementation
 
@@ -141,4 +164,8 @@ The core detection logic is implemented in two main components:
 3. **Driver Training**
    - Demonstrate the risks of drowsy driving
    - Train drivers to recognize early signs of fatigue
+<<<<<<< HEAD
    - Implement safety procedures
+=======
+   - Implement safety procedures
+>>>>>>> ff824be (Code update)
